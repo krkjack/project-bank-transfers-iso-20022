@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:pain.001.001.11" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:ns1="urn:iso:std:iso:20022:tech:xsd:pain.001.001.11">
+	<CstmrCdtTrfInitn xmlns="">
+		<GrpHdr>
+			<MsgId>AUR202211100000001</MsgId>
+			<CreDtTm>2022-01-11T16:20:41Z</CreDtTm>
+			<NbOfTxs>1</NbOfTxs>
+			<InitgPty>
+				<Id>
+					<PrvtId>
+						<Othr>
+							<Id></Id>
+						</Othr>
+					</PrvtId>
+				</Id>
+			</InitgPty>
+		</GrpHdr>
+		<PmtInf>
+			<PmtInfId>62217984</PmtInfId>
+			<PmtMtd>TRF</PmtMtd>
+			<ReqdExctnDt>
+				<Dt>11-1-2022</Dt>
+			</ReqdExctnDt>
+			<Dbtr>
+				<Nm> </Nm>
+				<PstlAdr>
+					<Ctry></Ctry>
+					<AdrLine></AdrLine>
+					<AdrLine></AdrLine>
+				</PstlAdr>
+			</Dbtr>
+			<DbtrAcct>
+				<Id>
+					<IBAN></IBAN>
+				</Id>
+			</DbtrAcct>
+			<DbtrAgt>
+				<FinInstnId>
+					<ClrSysMmbId>
+						<ClrSysId>
+							<Cd>PLKNR</Cd>
+						</ClrSysId>
+						<MmbId></MmbId>
+					</ClrSysMmbId>
+				</FinInstnId>
+			</DbtrAgt>
+			<CdtTrfTxInf>
+				<PmtId>
+					<InstrId>62217985</InstrId>
+					<EndToEndId> </EndToEndId>
+				</PmtId>
+				<Amt>
+					<InstdAmt Ccy="PLN"></InstdAmt>
+				</Amt>
+				<CdtrAgt>
+					<FinInstnId>
+						<ClrSysMmbId>
+							<MmbId></MmbId>
+						</ClrSysMmbId>
+					</FinInstnId>
+				</CdtrAgt>
+				<Cdtr>
+					<Nm></Nm>
+				</Cdtr>
+				<CdtrAcct>
+					<Id>
+						<Othr>
+							<Id></Id>
+						</Othr>
+					</Id>
+				</CdtrAcct>
+				<Purp>
+					<Prtry>PLKR</Prtry>
+				</Purp>
+				<RmtInf>
+					<Ustrd></Ustrd>
+				</RmtInf>
+			</CdtTrfTxInf>
+		</PmtInf>
+	</CstmrCdtTrfInitn>
+</Document>
