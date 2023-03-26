@@ -127,5 +127,7 @@ The .sql database file is included in the `database` directory.
 
 [Sliding Stacked Widget](https://github.com/Qt-Widgets/Sliding-Stacked-Widget)
 
+[libiban](https://github.com/Darth-Revan/libiban)
+
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
